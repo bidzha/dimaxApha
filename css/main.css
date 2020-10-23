@@ -368,7 +368,12 @@ textarea {
 }
 
 /*_____________________________________________________________________________*/
-*, ul, li, h1, h2, h3 {
+*,
+ul,
+li,
+h1,
+h2,
+h3 {
   font-family: 'Exo 2', sans-serif;
 }
 
@@ -490,16 +495,17 @@ body {
     width: 100%;
     height: 2px;
     top: 9px;
-    transition: .5s;
+    transition: 0.5s;
   }
-  .header__burger:before, .header__burger:after {
+  .header__burger:before,
+  .header__burger:after {
     content: '';
     background-color: white;
     position: absolute;
     width: 100%;
     height: 2px;
     left: 0;
-    transition: .5s;
+    transition: 0.5s;
   }
   .header__burger:before {
     top: 0;
@@ -510,16 +516,16 @@ body {
   .header__burger.active:before {
     transform: rotate(-135deg);
     top: 9px;
-    transition: .5s;
+    transition: 0.5s;
   }
   .header__burger.active:after {
     transform: rotate(135deg);
     bottom: 9px;
-    transition: .5s;
+    transition: 0.5s;
   }
   .header__burger.active span {
     transform: scale(0);
-    transition: .5s;
+    transition: 0.5s;
   }
   .header__menu {
     position: fixed;
@@ -529,7 +535,7 @@ body {
     height: 100%;
     background-color: #100f0f;
     padding: 50px 0 0 20px;
-    transition: .5s;
+    transition: 0.5s;
   }
   .header__menu.active {
     top: 0;
@@ -732,7 +738,7 @@ body {
   font-size: 18px;
   border: none;
   border-radius: 1px;
-  transition: .7s;
+  transition: 0.7s;
 }
 
 .main__callBack-block-btn:hover {
@@ -764,7 +770,7 @@ body {
 .main__work-title:after {
   margin: 35px auto;
   display: block;
-  content: "";
+  content: '';
   background: red;
   width: 80px;
   height: 2px;
@@ -808,11 +814,11 @@ body {
 }
 
 .main__work-thumb-hexagon:after {
-  content: "";
+  content: '';
   position: absolute;
   top: 1.1547px;
   left: 0;
-  width: 116.0000px;
+  width: 116px;
   height: 67.9726px;
   z-index: 2;
   background: inherit;
@@ -845,9 +851,9 @@ body {
 }
 
 .main__work-thumb-hexagon-top:after {
-  content: "";
+  content: '';
   position: absolute;
-  width: 116.0000px;
+  width: 116px;
   height: 66.9726312259966px;
   -webkit-transform: rotate(45deg) scaleY(1.7321) translateY(-33.4863px);
   -ms-transform: rotate(45deg) scaleY(1.7321) translateY(-33.4863px);
@@ -875,9 +881,9 @@ body {
 }
 
 .main__work-thumb-hexagon-bottom:after {
-  content: "";
+  content: '';
   position: absolute;
-  width: 116.0000px;
+  width: 116px;
   height: 66.9726312259966px;
   -webkit-transform: rotate(45deg) scaleY(1.7321) translateY(-33.4863px);
   -ms-transform: rotate(45deg) scaleY(1.7321) translateY(-33.4863px);
@@ -913,7 +919,7 @@ body {
 .main__work-thumb-block-title:after {
   margin: 0 auto;
   margin: 20px;
-  content: "";
+  content: '';
   background: red;
   width: 40px;
   height: 2px;
@@ -945,7 +951,7 @@ body {
   color: white;
   text-transform: uppercase;
   font-size: 18px;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .main__work-btn-block-button:hover {
@@ -979,7 +985,7 @@ body {
 .main__services-title:after {
   margin: 35px auto;
   display: block;
-  content: "";
+  content: '';
   background: red;
   width: 80px;
   height: 2px;
@@ -1016,7 +1022,7 @@ body {
 }
 
 .main__services-list-item-img:hover {
-  opacity: .9;
+  opacity: 0.9;
 }
 
 .main__services-list-item-title {
@@ -1049,7 +1055,7 @@ body {
   right: 0;
   width: 20px;
   margin: 0 5px 0 0;
-  content: url(/img/right.svg);
+  content: url(../img/right.svg);
 }
 
 .main__services-btn-block {
@@ -1067,7 +1073,7 @@ body {
   color: white;
   text-transform: uppercase;
   font-size: 18px;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .main__services-btn-block-button:hover {
@@ -1117,21 +1123,21 @@ body {
 
 .footer__contact-link.location:before {
   display: block;
-  content: url(/img/flocation.svg);
+  content: url(../img/flocation.svg);
   width: 20px;
   margin-right: 10px;
 }
 
 .footer__contact-link.phone:before {
   display: block;
-  content: url(/img/fcall.svg);
+  content: url(../img/fcall.svg);
   width: 20px;
   margin-right: 10px;
 }
 
 .footer__contact-link.delivery:before {
   display: block;
-  content: url(/img/fcenter.svg);
+  content: url(../img/fcenter.svg);
   width: 25px;
   margin-right: 10px;
 }
@@ -1185,7 +1191,7 @@ body {
 .footer__thumb-about-title:after {
   margin: 10px 0 15px 0;
   display: block;
-  content: "";
+  content: '';
   width: 50px;
   height: 2px;
   background-color: red;
@@ -1220,7 +1226,7 @@ body {
 .footer__thumb-services-title:after {
   margin: 10px 0 15px 0;
   display: block;
-  content: "";
+  content: '';
   width: 50px;
   height: 2px;
   background-color: red;
@@ -1255,7 +1261,7 @@ body {
 .footer__thumb-hours-title:after {
   margin: 10px 0 15px 0;
   display: block;
-  content: "";
+  content: '';
   width: 50px;
   height: 2px;
   background-color: red;
