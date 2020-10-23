@@ -29,7 +29,7 @@ gulp.task('browser-sync', () => {
 gulp.task('prefix', () =>
     gulp.src('app/css/main.css')
         .pipe(autoprefixer({
-            browsers: ['last 99 versions'],
+            browsers: ['last 5 versions'],
             cascade: false
     }))
     .pipe(gulp.dest('dist/css'))
